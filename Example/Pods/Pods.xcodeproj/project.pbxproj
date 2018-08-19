@@ -337,8 +337,8 @@
 		9B14F37D7062CDC7B357AF7E355C15F2 /* NSValue+Expecta.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSValue+Expecta.m"; path = "Expecta/NSValue+Expecta.m"; sourceTree = "<group>"; };
 		9B893BA53BCEF144BAB1C5E770F99F7E /* CircleWithArrowHead-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CircleWithArrowHead-prefix.pch"; sourceTree = "<group>"; };
 		9BFE2078B8C2281D6CEF35FD20990B09 /* EXPMatchers+beLessThan.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beLessThan.m"; path = "Expecta/Matchers/EXPMatchers+beLessThan.m"; sourceTree = "<group>"; };
-		A1C63092212995C0009DB77B /* CircularArrowHeadView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CircularArrowHeadView.h; sourceTree = "<group>"; };
-		A1C63093212995C0009DB77B /* CircularArrowHeadView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CircularArrowHeadView.m; sourceTree = "<group>"; };
+		A1C63092212995C0009DB77B /* CircularArrowHeadView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CircularArrowHeadView.h; path = CircleWithArrowHead/Classes/CircularArrowHeadView.h; sourceTree = "<group>"; };
+		A1C63093212995C0009DB77B /* CircularArrowHeadView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CircularArrowHeadView.m; path = CircleWithArrowHead/Classes/CircularArrowHeadView.m; sourceTree = "<group>"; };
 		A22C81CEC082AC4ADF72FA6839069521 /* Pods-CircleWithArrowHead_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CircleWithArrowHead_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		A322D057B0C1F9F8C6E3B1AB0AD46DEB /* SpectaUtility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SpectaUtility.h; path = Specta/Specta/SpectaUtility.h; sourceTree = "<group>"; };
 		A336ADBEC190B0C0CBD04398DE5E3AEF /* EXPMatchers+beCloseTo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beCloseTo.h"; path = "Expecta/Matchers/EXPMatchers+beCloseTo.h"; sourceTree = "<group>"; };
@@ -484,6 +484,8 @@
 		05B24D966F43EE5100BEEE7F4D6A08D8 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
+				A1C63092212995C0009DB77B /* CircularArrowHeadView.h */,
+				A1C63093212995C0009DB77B /* CircularArrowHeadView.m */,
 				03270525A807E3C55EB8E4B0FDF8BEFD /* CircleWithArrowHead.podspec */,
 				3FA7712D87F9379C8CC8604914FC104D /* LICENSE */,
 				02ED26F58E88CBB2C43B5EA55C9A20CE /* README.md */,
@@ -614,8 +616,6 @@
 		60821B8D0378166AB598F6BEC81863A1 /* CircleWithArrowHead */ = {
 			isa = PBXGroup;
 			children = (
-				A1C63092212995C0009DB77B /* CircularArrowHeadView.h */,
-				A1C63093212995C0009DB77B /* CircularArrowHeadView.m */,
 				05B24D966F43EE5100BEEE7F4D6A08D8 /* Pod */,
 				191AEF39238C0D46E6F6A68851DE75A4 /* Support Files */,
 			);
