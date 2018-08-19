@@ -1,5 +1,5 @@
 //
-//  CircularArrowHeadView.h
+//  CircleWithArrowHead.h
 //  CircleWithArrowHead
 //
 //  Created by Jose Catala on 19/08/2018.
@@ -10,7 +10,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 IB_DESIGNABLE
-@interface CircularArrowHeadView : UIView
+@interface CircleWithArrowHead : UIView
 
 @property (nonatomic, strong) IBInspectable UIColor *fillColor;
 

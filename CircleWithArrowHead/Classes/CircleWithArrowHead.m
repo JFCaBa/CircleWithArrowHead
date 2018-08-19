@@ -1,18 +1,26 @@
 //
-//  CircularArrowHeadView.m
+//  CircleWithArrowHead.m
 //  CircleWithArrowHead
 //
 //  Created by Jose Catala on 19/08/2018.
 //
 
-#import "CircularArrowHeadView.h"
+#import "CircleWithArrowHead.h"
 
-@interface CircularArrowHeadView()
+@interface CircleWithArrowHead()
 @property (nonatomic, strong) CAShapeLayer *shapeLayer;
 @property (nonatomic, strong) CAShapeLayer *circleLayer;
 @end
 
-@implementation CircularArrowHeadView
+@implementation CircleWithArrowHead
+
+@synthesize fillColor = _fillColor;
+@synthesize circleColor = _circleColor;
+@synthesize startAngle = _startAngle;
+@synthesize endAngle = _endAngle;
+@synthesize arrowWidth = _arrowWidth;
+@synthesize arrowHead = _arrowHead;
+@synthesize clockwise = _clockwise;
 
 - (instancetype)init
 {
@@ -122,32 +130,9 @@
     [self.layer addSublayer:self.circleLayer];
 }
 
-// MARK: - Custom setters
-//
-// These will trigger `setNeedsDisplay` whenever you change any of these properties
 
-- (void)setStartAngle:(CGFloat)startAngle {
-    _startAngle = startAngle;
-    [self updateView];
-}
-
-- (void)setEndAngle:(CGFloat)endAngle {
-    _endAngle = endAngle;
-    [self updateView];
-}
-
-- (void)setClockwise:(BOOL)clockwise {
-    _clockwise = clockwise;
-    [self updateView];
-}
-
-- (void)setFillColor:(UIColor *)fillColor {
-    _fillColor = fillColor;
-    [self updateView];
-}
-
-- (void)setArrowWidth:(CGFloat)arrowWidth {
-    _arrowWidth = arrowWidth;
+- (void) didChangeValueForKey:(NSString *)key
+{
     [self updateView];
 }
 
