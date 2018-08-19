@@ -1,0 +1,6 @@
+framework module CircleWithArrowHead {
+  umbrella header "CircleWithArrowHead-umbrella.h"
+
+  export *
+  module * { export * }
+}

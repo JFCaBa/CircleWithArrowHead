@@ -1,0 +1,6 @@
+framework module Pods_CircleWithArrowHead_Example {
+  umbrella header "Pods-CircleWithArrowHead_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
